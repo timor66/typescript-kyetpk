@@ -29,7 +29,7 @@ class MapBoxComponent extends LitElement {
       timeout: MAB_BOX_TIMEOUT,
       maximumAge: 0
     };
-    this.buildMap(position.coords);
+    this.buildMap();
   }
 
   buildMap(coords) {
