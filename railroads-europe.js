@@ -37,7 +37,7 @@ class MapBoxComponent extends LitElement {
     this.map = new mapboxgl.Map({
       container: 'railroads-map',
       style: 'mapbox://styles/timor66/ckr32cq3pemln18qspaqpkqiq',
-      center: [23.5, 63.5],
+      center: [14.5, 53.5],
       zoom: 4
     });
   }
